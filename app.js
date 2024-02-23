@@ -4,7 +4,7 @@ const app = express();
 const modbusRouter = require("./src/routers/modbusRouter");
 const modbusClientRegister = require("./src/models/modbusClient");
 
-const port = 3000;
+const port = 3001;
 
 // Establecer conexión Modbus TCP
 modbusClientRegister.connect("192.168.0.107");
